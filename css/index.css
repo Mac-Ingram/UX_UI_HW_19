@@ -1,0 +1,250 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.inline-block {
+    display: flex;
+    vertical-align: top;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.topnav {
+    justify-content: flex-end;
+    height: 87px;
+    margin: 0px;
+    align-items: center;
+    font-size: 24px;
+}
+
+.topnav li {
+    list-style-type: none;
+    padding-right: 50px;
+}
+
+.hover {
+    border-style: solid;
+    border-color: #73F5AD; 
+    border-radius: 20px;
+    background-color: #434343;
+    color: #73F5AD;
+    padding: 5px;   
+}
+
+.btnhover {
+    background-color: #434343;
+    color: #73F5AD;
+    border-color: #73F5AD;
+    border-width: medium;
+    border-style: solid;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.myWork {
+    margin-top: 150px;
+}
+
+.hello {
+    font-family: 'Lato', sans-serif;
+    font-size: 125px;
+    font-style: italic;
+    width: 50%;
+}
+
+.logo {
+    width: 200px;
+    
+}
+
+.downarrow {
+    margin: 25px;
+}
+.arrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 50%;
+    height: 75px;
+    animation: bounceArrow .7s infinite;
+}
+
+
+
+nav {
+    margin-left: auto;
+}
+
+   
+#profile {
+    justify-content: flex-end;
+}
+
+.herolmg {
+    padding: 25px;
+}
+
+.content {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+}
+
+.photo {
+    float: right;
+}
+.contentp {
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration-color: #434343;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.connect {
+    margin-top: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration-color: #434343;
+    font-size: 24px;
+    font-weight: lighter;
+
+}
+
+footer {
+    background-color: #373738;
+    padding: 15px;
+}
+
+.footerlist {
+    vertical-align: top;
+    padding: 25px;
+    color: #73F5AD;
+}
+
+button {
+    background-color: #73F5AD;
+    text-decoration-color: #434343;
+    border-radius: 20px;
+    width: 260px;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    margin-top:25px;
+    padding: 10px;
+    border: none;
+}
+
+.resumebtn {
+    width: 359px;
+}
+
+.flexContainer {
+    display:flex;
+    flex-direction:row;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;   
+    font-size: 42px;
+}
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    color: #73F5AD;
+    font-size: 48px;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration-color: #434343; 
+    margin-right: 20px;
+    font-size: 24px;
+}
+.container {
+    background-color: #434343;
+    border-radius: 30px;
+    padding-top: 20px;
+    margin-top:100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.projecttext {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.sectionheader {
+    font-family: 'Lato', sans-serif;
+    font-size: 96px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+.projectimg {
+    padding: 0px 25px 25px 25px
+}
+
+.projectbutton {
+    margin-top: 0px !important;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding-bottom: 100px;
+    justify-content: space-around;
+}
+
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+    background-color: white;
+    top: 0;
+    display: flex;
+    align-items: center;
+  }
+
+@media only screen and (max-width: 600px){
+    .flexContainer {
+        display:flex;
+        flex-direction: column;
+    }
+    .skills {
+        width: 100%;
+    }
+    .workGrid {
+        grid-template-rows: 300px 300px 300px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@keyframes bounceArrow {
+    from {
+      margin-top: 0px;
+    }
+    50% {
+      margin-top: 7px;
+    }
+    to {
+      margin-top: 0px;
+    }
+  }
