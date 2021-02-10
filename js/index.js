@@ -16,10 +16,3 @@ $("li").hover(
     }
   );
 
-  $("connectbtn").hover(
-    function() {
-      $( this ).addClass("btnhover");
-    }, function() {
-      $( this ).removeClass( "btnhover");
-    }
-  );
