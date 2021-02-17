@@ -1,5 +1,3 @@
-console.log("This isn't working");
-
 $("li").hover(
     function() {
       $( this ).addClass("hover");

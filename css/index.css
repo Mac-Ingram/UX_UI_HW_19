@@ -223,6 +223,35 @@ p {
     align-items: center;
   }
 
+
+  .footer {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.footerlist {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.footeritem {
+      color:#73F5AD;
+      display: inline-flex;
+      margin-left: 25px;
+      margin-right: 25px;
+      font-size:24px;
+}
+.contactinfo {
+    display: flex;
+    flex-direction: column;
+}
+.footerinfo {
+    width: 400px;
+    padding-right: 200px;
+    margin-bottom: 20px;
+    color:#73F5AD;
+    display: flex;
+}  
 @media only screen and (max-width: 600px){
     .flexContainer {
         display:flex;
